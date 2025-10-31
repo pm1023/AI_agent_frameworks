@@ -1,6 +1,8 @@
 # 🤖 Agentic AI Frameworks & Fundamentals  
 *A hybrid, intelligent agentic AI system combining Gemini, LangChain, FAISS & Tavily for reasoning, retrieval, and automation.*
 
+[![Open in Colab](https://colab.research.google.com/drive/1KLL9B85krXibcgNWBJ5-dmarBWPZ2LJ0?usp=sharing) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ---
 
 ## 🧠 Project Overview  
