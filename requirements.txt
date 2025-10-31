@@ -1,0 +1,30 @@
+# ==========================================
+# 🧠 Agentic AI Frameworks & Fundamentals
+# Gemini + LangChain + FAISS + Tavily RAG System
+# ==========================================
+
+# --- Core AI & LLM Packages ---
+google-generativeai==0.8.3           # For Gemini LLM (Google Generative AI SDK)
+langchain==0.3.3                     # LangChain main framework
+langchain-core==0.3.10               # Core classes, prompt templates, runnables
+langchain-google-genai==1.0.6        # LangChain integration with Google Gemini models
+langchain-community==0.3.2           # Community modules (tools, FAISS wrapper, etc.)
+
+# --- Embeddings & Vector Store ---
+faiss-cpu==1.8.0                     # FAISS for vector similarity search (CPU version)
+# If you have GPU support, you can use instead:
+# faiss-gpu==1.8.0
+sentence-transformers==3.0.1         # HuggingFace embedding models
+
+# --- Search Integration ---
+tavily-python==0.3.1                 # Tavily web search API client
+langchain-tavily==0.1.2              # Optional LangChain Tavily integration (if used)
+
+# --- Utility Libraries ---
+numpy==1.26.4                        # For numerical operations
+pandas==2.2.3                        # For data manipulation
+uuid==1.30                           # For generating unique IDs
+requests==2.32.3                     # For API calls
+json5==0.9.14                        # For handling structured responses
+google-api-core==2.19.1              # Required by google-generativeai
+tqdm==4.66.5                         # For progress bars and loops
